@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doppio+One&display=swap');
+ 
+body {font-family: "Doppio One", sans-serif;}
+ 
+.topbar {font-family: "Audiowide", sans-serif;}
+ 
+.navbar {font-family: "Audiowide", sans-serif;}
+
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://sonic.sega.jp/SonicChannel/upload_images/wallpaper_164_nuckles_13_pc.png') center center fixed;
+background-size: 100%;
+color: #HEX; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://sonic.sega.jp/SonicChannel/upload_images/wallpaper_152_nuckles_12_sp.png') center center fixed;
+background-size: cover;
+color: #HEX; } }
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #660101;}
+::-webkit-scrollbar-thumb {
+background: #E60000; } 
+
+h1 {
+color: #390303 !important;
+font-size: 84px;
+text-align: center !important;
+font-family: "Audiowide", sans-serif;}
+
+h3 {
+color: #390303 !important;
+font-size: 18px;}
+
+a:link,
+a:visited {
+color: #E60000 !important;
+background: none !important; }
+   
+a:hover {
+color: #660101 !important; }
+
+.container.main {
+background: #28010194;
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+
+.topbar {
+background: #000000 !important;
+color: #390303 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: #000000 !important;
+color: #390303 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+
+.navbar li a:hover {
+background: #000000 !important;
+color: #660101 !important; }
+
+.navbar-toggle {
+border: none !important;
+background: #650000 !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+.breadcrumb {
+background: #000000 !important;
+color: #280101 !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #HEX; }
+
+.alert {
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
+.alert-warning {
+background: #000000 !important;
+color: #000000 !important;}
+.alert-danger {
+background: #000000 !important;
+color: #000000 !important;}
+.alert-success {
+background: #000000 !important;
+color: #5F3FAA !important;}
+ 
+div#commentBox {
+background: #000000 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #280101 !important;}
+	
+.comment {     
+background: #000000 !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #660101 !important;
+text-align: center !important;}
+.text-muted { 
+color: #750101 !important; }
+
+input.bad {
+background: #000000 !important;
+color: #5F3FAA !important;}
+input.bad a {
+color: #000000 !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
+
+.panel {
+background: #000000 !important;
+color: #280101 !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+
+.progress-bar {
+background: #520101 !important; 
+border-radius: 0px !important; }
+
+.progress-bar-warning { 
+background: #HEX !important;
+color: #HEX !important;}
+/* HUNGER */ .progress-bar-danger { 
+background: #HEX !important;
+color: #HEX !important;}
+/* EXP + ACHIEVEMENTS */ .progress-bar-success { 
+background: #HEX !important;
+color: #HEX !important;}
+
+
+.progress div {
+color: #HEX !important; }
+
+.progress {
+background:  #000000;
+color: #280101 !important;
+border-radius: 0px !important;  }
+
+img[src$="icon_warning.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+button#label_currentChannel {
+border: none !important;
+background: #HEX !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message__pinned {
+background-color: #000000 !important;
+color: #280101 !important;
+border: none !important; }
+
+.s-chat-message:nth-child(even) {
+background: #520101 !important;
+border: none !important; }
+.s-chat-message:nth-child(odd) {
+background: #520101 !important;
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: #520101 !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: #000000 !important;
+color: #520101 !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+div.emoteList.active {
+  background: #650000 !important;
+  border: 1px solid #HEX !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: #650000
+border-top: none !important;
+border: 1px solid #HEX !important; }
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #000000 !important;
+border-left: 6px solid #000000 !important;
+color: #E60000 !important; }
+
+div#lblCharacterCounter {
+color: #520101 !important; }
+
+html.nolayout {
+background: none !important; }
+
+.feature {
+background: #HEX !important;
+color: #HEX !important;
+border: 3px double #HEX !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+.table {
+background: #520101(0, 0, 0, 0.0);
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+.top, .bottom, th {
+background: #000000 !important;
+color: #280101 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.bottom a:visited, .bottom a {
+text-decoration: none !important;}
+
+.table .left {
+background: #HEX;
+border-radius: 0px !important; }
+
+.inner-table .left {
+background: #HEX !important;
+border-radius: 0px !important;  }
+
+.inner-table .right {
+background: #HEX !important;
+border-radius: 0px !important; 
+color: #HEX !important; } 
+
+.right_odd {
+background: none !important; }
+
+img[src$="icon_den_message.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_gift.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_trade.png"] {
+content: url('imagelink') !important; 
+width: 24px !important; }
+
+img[src$="icon_den_wishlist.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_viewtrade.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_gift.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_block.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="icon_den_friend.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+img[src$="donator.png"] {
+content: url('imagelink') !important;
+width: 24px !important; }
+
+div#lion_image {
+opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 50%; }
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://sonic.sega.jp/SonicChannel/upload_images/icon_stamp2025_05.png'); }
+
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-shadow: none !important; }
+ 
+.cave-grid,
+.mound-grid {
+background: #000000 !important;
+color: #520101 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="CAVEID"]>div.cave-grid>img {
+content: url('IMG LINK')!important;
+width: 258px !important;
+height: auto !important; }
+a[href$="CAVEID"]>div.cave-grid>img {
+content: url('IMG LINK')!important; 
+width: 258px !important;
+height: auto !important; }
+a[href$="CAVEID"]>div.cave-grid>img {
+content: url('IMG LINK')!important;
+width: 258px !important;
+height: auto !important; }
+
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('IMG LINK')!important; }
+a[href$="unsorted.php?id=USERID"]>div.cave-grid>img{
+content: url('IMG LINK')!important;
+width: 75px;
+height: 75px;}
+a[href*="lionoverview.php?id=USERID"]>div.cave-grid>img {
+content: url('IMG LINK')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="unsorted-beetles.php?id=USERID"] img {
+content:url('IMG LINK') !important;
+background-size: cover;
+width: 100%;
+height: auto; } 
+
+a[href$="mound.php?id=MOUNDID"] img {
+content:url('IMG LINK') !important;
+background-size: cover;
+width: 100%;
+height: auto; } 
+
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('LINK')!important;
+    width:185px!important; }
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('LINK')!important;
+    width:185px!important; }
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('LINK')!important;
+    width:185px!important; }
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('LINK')!important;
+    width:185px!important; }
+
+    .featured-lion {
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 0;
+margin: 0 auto;
+max-width: 640px;
+font-weight: bold;
+font-size: 14px; }
+
+img[src*="cave/default"] {
+content: url('IMG LINK') !important;}
+
+table#pride.table, table#pride.table a, table#pride.table a:visited {
+color: #HEX !important; }
+
+table#pride.table .xsmall
+{font-size: 12px !important;}
+
+img[src$="arrow.png"] {
+content: url('imagelink') !important;}
+img[src$="arrowgrayleft.png"] {
+content: url('imagelink') !important;}
+
+div.lion-image-block>img[src$="blank.png"] {
+background-color: #b98214 !important;
+    background-image: url("LINK") !important;
+filter: opacity(0.2) !important;}
+
+/* FOOTNOTE - MUT */
+img[src$="footmut.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - HUNT */
+img[src$="foothunt.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - HEIR */
+img[src$="footheir.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - BREED/HEART */
+img[src$="footbreed.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - CROSS/X */
+img[src$="footx.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - BIO/BOOK */
+img[src$="footbio.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+/* FOOTNOTE - INFERTILE/BROKEN HEART*/
+img[src$="footinfertile.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+
+    .badge {
+background: #HEX !important;
+color: #HEX !important; }
+
+.badge {
+background: #HEX !important;
+color: #HEX !important; }
+	
+/ * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
+and removes link underlines from edit your details */
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
+
+td.bottom a, th a {
+border-bottom: none !important; }
+
+.boxcontainer {
+background: none;
+height: 75px;
+padding: 0px;
+display: block;
+justify-content: center;
+transition: 1s }
+.boxcontainer:hover {
+height: 250px; }
+   
+.Box1 {
+float: left;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: left;
+height: 75px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box1:hover {
+overflow-y: auto;
+height: 250px; }
+   
+.Box2 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 30%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box2:hover {
+overflow-y: auto;
+height: 250px; }
+	
+.Box3 {
+float: right;
+background: #HEX !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+padding: 5px;
+float: right;
+height: 75px;
+width: 65%;
+overflow: hidden;
+margin-bottom: 10px;
+transition: 1s }   
+.Box3:hover {
+overflow-y: auto;
+height: 250px; }
+
+/* MEMBER ONLINE */
+.member-online {
+    background: #000000;
+    content:url('none')!important;
+	border-radius: 0px;
+    width:40px!important;
+    height:40px;
+	margin:-10px;
+	margin-left:10px; }
+	
+/* MEMBER OFFLINE */
+.member-offline {
+    background: #E60000;
+    content:url('none')!important;
+	border-radius: 0px;
+    width:40px!important;
+    height:40px;
+	margin:-10px;
+	margin-left:10px;
+	filter: saturate(0%); }
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://i.imgur.com/OaPUfer.png')!important;
+    width:20px!important; }
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://i.imgur.com/j48juT6.png')!important;
+    width:20px!important; }
+	
+/* EVENT CURRENCY */
+ 
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* JULY - METEORITE SHARDS */
+img[src$="shard.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* JULY - AXION CORES */
+img[src$="axion.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* AUG - CARRION BONES */
+img[src$="beetlecarrion.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* AUG - DRY BONES */
+img[src$="bone.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* SEPT - JEWEL BEETLES */
+img[src$="beetlejewel.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* SEPT - ELDRITCH TOKENS */
+img[src$="eldritch.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* OCT - BLOOD BEETLES */
+img[src$="beetleblood.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* OCT - NEPHILIM FEATHERS */
+img[src$="nephelinefeather.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* OCT - DEMON SCALES */
+img[src$="demonicscale.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+	
+/* TREASURE HUNT */
+img[src$="icon_doubloon.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+<!-- Sonic The Hedgehog - Knuckles - https://www.cursors-4u.com/cursor/gam69 -->
+<link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/gam69-f6210e2f-31.css">
+<!-- End www.Cursors-4U.com Code -->
+
+    .breadcrumb::after {
+content: "css template by katie (#106445) & jester (#187561)";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
